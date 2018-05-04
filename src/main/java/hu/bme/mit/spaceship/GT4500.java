@@ -84,12 +84,14 @@ public class GT4500 implements SpaceShip {
             // if both of the stores are empty, nothing can be done, return failure
           }
         }
+       return firingSuccess;
   }
 
   private boolean fireAllTorpedos(boolean firingSuccess){
 	// try to fire both of the torpedo stores
         //TODO implement feature
 	firingSuccess = true;
+	return firingSuccess;
   }
 
 }
